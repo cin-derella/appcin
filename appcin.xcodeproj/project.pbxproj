@@ -12,6 +12,7 @@
 		FEB69DC2232E4902001E7E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB69DC0232E4902001E7E7B /* Main.storyboard */; };
 		FEB69DC4232E4902001E7E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB69DC3232E4902001E7E7B /* Assets.xcassets */; };
 		FEB69DC7232E4902001E7E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB69DC5232E4902001E7E7B /* LaunchScreen.storyboard */; };
+		FEB69DD0232E66A2001E7E7B /* BorderButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB69DCF232E66A1001E7E7B /* BorderButtton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FEB69DC3232E4902001E7E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEB69DC6232E4902001E7E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEB69DC8232E4902001E7E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB69DCF232E66A1001E7E7B /* BorderButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButtton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FEB69DBB232E4902001E7E7B /* appcin */ = {
 			isa = PBXGroup;
 			children = (
+				FEB69DCE232E6611001E7E7B /* Views */,
 				FEB69DBC232E4902001E7E7B /* AppDelegate.swift */,
 				FEB69DBE232E4902001E7E7B /* ViewController.swift */,
 				FEB69DC0232E4902001E7E7B /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				FEB69DC8232E4902001E7E7B /* Info.plist */,
 			);
 			path = appcin;
+			sourceTree = "<group>";
+		};
+		FEB69DCE232E6611001E7E7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEB69DCF232E66A1001E7E7B /* BorderButtton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +101,9 @@
 		FEB69DB1232E4902001E7E7B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					image,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = cinderella;
@@ -137,6 +151,7 @@
 			files = (
 				FEB69DBF232E4902001E7E7B /* ViewController.swift in Sources */,
 				FEB69DBD232E4902001E7E7B /* AppDelegate.swift in Sources */,
+				FEB69DD0232E66A2001E7E7B /* BorderButtton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NQK2WC4GW;
 				INFOPLIST_FILE = appcin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NQK2WC4GW;
 				INFOPLIST_FILE = appcin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
